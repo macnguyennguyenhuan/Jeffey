@@ -6,14 +6,12 @@ body
 {
     background: #1f1f20;
     color:#fff;
-    font: 400 'Poppins', sans-serif;
 }
 h2
 {
     display: block;
 }
 h1, h2, h3, h4, h5, h6 {
-    font: 500 'Josefin Sans' , sans-serif;
     letter-spacing: 3px;
 }
 header
@@ -24,10 +22,27 @@ header
 {
     margin-top: 150px;
 }
+.img-avt
+{
+
+    border:5px solid #4e93e6;
+    z-index: -2;    
+    width: 100%;
+    position: relative;
+    border-spacing: 1px;
+    float: left;
+}
+.img-avt img
+{
+    margin-right: 40px;
+    margin-top: 15px;
+    float: right;
+}
+
 .border1
 {
     border:5px solid #4e93e6;
-    z-index: -2;
+    z-index: -2;    
     height: 480px;
     width: 100%;
     margin-left: 10%;
@@ -112,7 +127,6 @@ header
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font:'Josefin Sans', sans-serif;
 }
 .card-text p
 {
